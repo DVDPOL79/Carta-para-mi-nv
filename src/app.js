@@ -40,6 +40,7 @@ const fotos = [
   "assets/img/5.jpg",
   "assets/img/6.jpg",
   "assets/img/7.jpg",
+  "assets/img/8.jpg",
 ];
 
 let indiceActual = 0;
@@ -154,3 +155,4 @@ actualizarContadores();
 
 // Actualiza cada segundo (ligero y seguro)
 setInterval(actualizarContadores, 1000);
+
