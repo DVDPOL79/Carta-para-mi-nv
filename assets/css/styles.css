@@ -1,0 +1,120 @@
+body {
+  background-color: #d391ed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #d80000;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff4d6d;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e63956;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100vh;
+  padding: 60px;
+}
+
+
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+}*/
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  transition: opacity 0.4s ease;
+}
+
+.carousel button {
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #d6336c;
+  cursor: pointer;
+}
+
+.contador {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#contador span {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #d30c0c;
+  margin-top: 8px;
+}
+
